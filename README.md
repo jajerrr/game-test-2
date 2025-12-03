@@ -29,29 +29,6 @@
 - Card เกมแบบ modern + hover effect
 - รองรับมือถือ (Responsive) 100%
 
----
-
-## 📁 โครงสร้างโปรเจกต์
-
-game-project/
-│
-├── components/
-│ └── Home/
-│ └── index.vue # หน้าแสดงเกม + Search + Modal
-│
-├── pages/
-│ └── index.vue # เรียก HomeIndex (auto-import)
-│
-├── assets/
-│ └── css/
-│ └── tailwind.css # ไฟล์ tailwind global
-│
-├── public/
-│ └── bg.jpg # รูปพื้นหลัง (optional)
-│
-├── nuxt.config.ts # ตั้งค่า global css
-└── README.md
-
 
 
 ---
