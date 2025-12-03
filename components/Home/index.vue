@@ -42,7 +42,7 @@
 
 
       <div v-else class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        <article v-for="game in games" :key="game.id"
+        <div v-for="game in games" :key="game.id"
           class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition">
           <div class="relative">
             <img :src="game.thumbnail" class="w-full h-40 object-cover" />
@@ -71,7 +71,7 @@
               ดูรายละเอียด
             </button>
           </div>
-        </article>
+        </div>
       </div>
 
 
